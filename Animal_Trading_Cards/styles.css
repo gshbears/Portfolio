@@ -1,0 +1,43 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italics {
+	font-style: italic;
+}
+
+.list {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.container {
+	border: solid 1px black;
+	width: 300px;
+	border-radius: 4px;
+	margin: 2rem;
+	padding: 0rem 1rem 1rem 1rem;
+	box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.75);
+	background-color: rgba(126, 199, 58, 0.966)
+}
+
+.info {
+	border: solid 1px grey;
+	border-radius: 2px;
+	margin: 1px;
+	padding: 2px 10px 10px 10px;
+	font-size: smaller;
+	background-color: rgba(248, 240, 170, 0.938)
+}
+
+.iguana {
+	width: 300px;
+}
+
+.justify {
+	text-align: justify;
+}

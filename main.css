@@ -1,0 +1,264 @@
+/* https://www.freeformatter.com/css-beautifier.html */
+/* https://jigsaw.w3.org/css-validator/#validate_by_input */
+
+.content,
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.header {
+	border-bottom: 10px solid#013401;
+	background: #fff;
+	margin-bottom: 3px;
+}
+
+.header_title,
+.header_job,
+.quote,
+.about_me,
+.container,
+.footer {
+	font-family: 'Orbitron', sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20.9px;
+}
+
+.header_title {
+	color: #007C00;
+}
+
+.header_job {
+	color: #00A900;
+}
+
+.quote {
+	text-align: center;
+	font-size: 19px;
+	color: #ffffff;
+	/* Grey text */
+}
+
+.about_me {
+	font-size: 15px;
+	color: #575757;
+	/* Grey text */
+	text-align: center;
+	margin: 5px;
+	border-radius: 4px;
+}
+
+.container_title,
+.footer {
+	text-align: center;
+	font-size: 18px;
+	color: #ffffff;
+	/* white text */
+}
+
+.container {
+	background: #007C00;
+	padding: 15px;
+	margin-bottom: 3px;
+	color: #ffffff;
+	/* white text */
+}
+
+.schematic,
+.quote,
+.header,
+.container,
+.footer {
+	border-radius: 4px;
+}
+
+.animal_card,
+.algorithm,
+.scope {
+	cursor: pointer;
+	text-align: center;
+	font-size: 13px;
+	padding: 5px;
+	margin: 5px;
+	background: #575757;
+	border-radius: 4px;
+	box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 1);
+}
+
+.footer {
+	background: #013401;
+	height: 2rem;
+}
+
+.footer_project,
+.container_title {
+	padding: 0%;
+	margin: 0%;
+}
+
+.animal_card_href {
+	text-decoration: none;
+	color: #ffffff;
+	/* white text */
+}
+
+.quote {
+	position: absolute;
+	/* Position the background text */
+	top: 0%;
+	/* At the bottom. Use top:0 to append it to the top */
+	background: rgba(0, 0, 0, 0.35);
+	/* Black background with 0.5 opacity */
+	width: 100%;
+	/* Full width */
+	height: 100%;
+}
+
+.algorithm_img,
+.iguana_img,
+.scope_img {
+	width: 100%;
+	height: 200px;
+}
+
+.schematic {
+	width: 100%;
+}
+
+.innovation {
+	position: relative;
+}
+
+.header__logo {
+	height: 40px;
+}
+
+@media screen and (min-width: 360px) {
+	/* Google Nexus 5 */
+	.schematic {
+		width: 100%;
+	}
+	.header__logo {
+		height: 65px;
+	}
+	.header__title {
+		margin-left: 0;
+		font-size: 2em;
+		vertical-align: bottom;
+	}
+	.container_title {
+		width: 100%;
+		order: 1;
+	}
+	.animal_card {
+		width: 300px;
+		order: 2;
+		margin-left: 25%;
+	}
+	.algorithm {
+		width: 300px;
+		order: 3;
+		margin-left: 25%;
+	}
+	.scope {
+		width: 300px;
+		order: 4;
+		margin-left: 25%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	/* ipad */
+	.header__logo {
+		height: 70px;
+		margin: .5rem;
+	}
+	.schematic {
+		width: 100%;
+		height: 250px;
+	}
+	.header_text {
+		text-align: right;
+		float: right;
+		margin-right: 1rem;
+	}
+	.header_job {
+		margin: 2px;
+	}
+	.innovation {
+		position: relative;
+	}
+	.container_title {
+		width: 100%;
+		order: 1;
+	}
+	.animal_card {
+		width: 45%;
+		order: 2;
+		margin-left: 10px;
+	}
+	.algorithm {
+		width: 45%;
+		order: 3;
+		margin-left: 10px;
+	}
+	.scope {
+		width: 45%;
+		order: 4;
+		margin-left: 25%;
+	}
+}
+
+@media screen and (min-width: 850px) {
+	/* Desktop */
+	.header,
+	.content,
+	.schematic,
+	.footer,
+	.centered,
+	.innovation,
+	.about_me {
+		width: 850px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.header__logo {
+		height: 70px;
+		margin: 1rem;
+	}
+	.schematic {
+		height: 250px;
+	}
+	.header_text {
+		text-align: right;
+		float: right;
+		margin-right: 1rem;
+	}
+	.header_job {
+		margin: 2px;
+	}
+	.innovation {
+		position: relative;
+	}
+	.container_title {
+		width: 100%;
+		order: 1;
+	}
+	.animal_card {
+		width: 30.55%;
+		order: 2;
+		margin-left: 5px;
+	}
+	.algorithm {
+		width: 30.55%;
+		order: 3;
+		margin-left: 5px;
+	}
+	.scope {
+		width: 30.55%;
+		order: 4;
+		margin-left: 5px;
+	}
+}
